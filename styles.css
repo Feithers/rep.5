@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.main-box {
+    width: 25rem;
+    height: 39rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 20px hsl(223, 33%, 79%);
+}
+
+.flex-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    padding: 2rem;
+}
+
+.flex-content > h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.description {
+    width: 17rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-box {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    column-gap: 1.5rem;
+    width: 20rem;
+    height: 5rem;
+    padding: 1rem;
+}
+
+.plan-box > div {
+    display:flex;
+    flex-direction: column;
+    row-gap: 0.2rem;
+}
+
+.plan-box > a {
+    margin-top: 0.8rem;
+    margin-left: 2.3rem;
+    font-size: 0.8rem;
+}
+
+.plan-box > div > h2 {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.plan-box > div > p {
+    font-size: 0.9rem;
+    color: hsl(224, 23%, 55%);
+}
+
+.img-1 {
+    display: block;
+    max-width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+button {
+    width: 20rem;
+    height: 2.5rem;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: 700;
+    border: none;
+    font-family: 'Red Hat Display', sans-serif;
+}
